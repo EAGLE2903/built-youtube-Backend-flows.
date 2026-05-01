@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 import express from "express";
 import connectDB from "./db/index.js";
 import {app} from './app.js'
+
+console.log("🚀 INDEX FILE RUNNING");
 dotenv.config({
   
 });
