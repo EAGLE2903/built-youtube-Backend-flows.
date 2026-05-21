@@ -12,11 +12,8 @@ import { asyncHandler } from "../utils/asyncHandler.js"
 
 
 
-/*
-|--------------------------------------------------------------------------
-| GET VIDEO COMMENTS
-|--------------------------------------------------------------------------
-*/
+ //GET VIDEO COMMENTS
+
 
 const getVideoComments = asyncHandler(async(req,res)=>{
 
